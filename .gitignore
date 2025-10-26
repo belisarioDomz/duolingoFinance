@@ -1,0 +1,65 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# --- Flask / Web ---
+instance/
+*.db
+*.sqlite3
+*.log
+.env
+*.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.cache/
+
+# --- IDEs / Editors ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Jupyter (if used) ---
+.ipynb_checkpoints
+
+# --- Static files (if generated dynamically) ---
+static/*.map
+static/build/
+static/dist/
+
+# --- Secrets / Config ---
+config.json
+secrets.json
+credentials.json
+
+# --- Docker ---
+*.pid
+*.seed
+*.bak
+docker-compose.override.yml
+
+# --- Misc ---
+*.tmp
+*.swp
+*.bak
