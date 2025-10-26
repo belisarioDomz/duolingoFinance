@@ -1,3 +1,4 @@
+import 'package:duolingofinanceapp/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'home_screen.dart';
 import 'package:http/http.dart' as http;
@@ -83,7 +84,7 @@ class _LoginScreenState extends State<LoginScreen>
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => HomeScreen(
+            builder: (context) => MainScreen(
               username: data['username'],
               idUser: data['id_user'], // <-- ahora sí pasamos idUser
             ),
