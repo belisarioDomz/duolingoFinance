@@ -51,7 +51,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
     try {
       final response = await http.post(
-        Uri.parse('http://10.0.2.2:5000/login'), // IP del PC para emulador Android
+        Uri.parse('http://10.22.187.7:5000/login'), // IP del PC para emulador Android
         headers: {"Content-Type": "application/json"},
         body: jsonEncode({"email": email, "password": password}),
       );
