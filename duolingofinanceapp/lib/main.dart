@@ -13,7 +13,7 @@ class DuolingoFinancieroApp extends StatelessWidget {
     return MaterialApp(
       title: 'Duolingo Financiero',
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.blue,
       ),
       initialRoute: '/',
       routes: {
