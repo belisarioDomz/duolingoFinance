@@ -23,7 +23,7 @@ class _MainScreenState extends State<MainScreen> {
     super.initState();
     _screens = [
       HomeScreen(username: widget.username, idUser: widget.idUser),
-      GoalsScreen(idUser: widget.idUser),
+      GoalsScreen(idUser: widget.idUser, username: widget.username),
       StatsScreen(idUser: widget.idUser),
     ];
   }
